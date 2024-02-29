@@ -1,0 +1,81 @@
+.navi-taskbar{
+    display: flex;
+    padding-top: 20px;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    list-style-type: none;
+}
+.reservation{
+    color: #ad9e87;
+}
+.book-reservation{
+    padding-left: 10px;
+}
+.mobshow{
+    cursor: pointer;
+}
+.taskbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+.taskbar-btn{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.btn-lotte{
+    border: none;
+    background: #ad9e87;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn-lotte:hover{
+    background: #61594c;
+}
+.detail-info{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    background-color: white;
+    top: 158px;
+    width: 100%;
+    height: 260px;
+    left: 0;
+    padding: 30px 50px; 
+    
+}
+.panel-wrap{
+    border-right: 1px solid rgb(162, 160, 160);
+    padding-right: 40px;
+}
+.menu-2depth{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 500;
+}
+.liinfo{
+    list-style-type: none;
+    margin-left: 60px;
+    padding-bottom: 20px;
+}
+.menu-1depth-ttl{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    font-family: "Open Sans", sans-serif;
+}
+.menu-2depth:hover{
+    color: #ad9e87;
+}
+.menu-1depth-ttl:hover{
+    color: #ad9e87;
+}
+.panel-align1{
+    display: flex;
+}
